@@ -1,0 +1,53 @@
+project:
+  type: website
+  resources:
+    - libs/mathjax/**
+
+website:
+  title: "Dispense"
+  navbar:
+    left:
+      - text: "Indice"
+        href: index.qmd
+      - text: "Capitolo 1"
+        href: capitoli/cap1.qmd
+      - text: "Capitolo 2"
+        href: capitoli/cap2.qmd
+
+title: "Dispense"
+author: "Il tuo nome"
+lang: it
+
+filters:
+  - pseudocode
+
+pseudocode:
+  caption-prefix: "Algoritmo"
+  reference-prefix: "Algoritmo"
+  caption-number: true
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    include-in-header:
+      text: |
+        <script>
+        window.MathJax = {
+          loader: { load: ["[tex]/boldsymbol"] },
+          tex: {
+            tags: "all",
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+            processEscapes: true,
+            processEnvironments: true,
+            packages: { "[+]": ["boldsymbol"] }
+          }
+        };
+        </script>
+        <script type="text/javascript" src="/libs/mathjax/tex-chtml-full.js"></script>
+  pdf:
+    number-sections: true
+    documentclass: article
