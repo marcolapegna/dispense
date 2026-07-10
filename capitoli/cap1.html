@@ -237,7 +237,7 @@ Figura&nbsp;1: Distribuzione normale standard
 <section id="ricerca-binaria" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="ricerca-binaria"><span class="header-section-number">2</span> Ricerca binaria</h2>
 <p>L’<a href="#algo-ricerca-binaria" class="quarto-xref">Algoritmo 1</a> mostra lo pseudocodice per la ricerca di un elemento in un array ordinato.</p>
-<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-indent-lines="false" data-line-number="true" data-no-end="false" data-pseudocode-number="1" data-indent-size="1.2em" data-caption-prefix="Algoritmo" data-line-number-punc=":" data-comment-delimiter="//">
+<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-pseudocode-number="1" data-no-end="false" data-indent-lines="false" data-line-number-punc=":" data-comment-delimiter="//" data-caption-prefix="Algoritmo" data-line-number="true" data-indent-size="1.2em">
 <div class="pseudocode">
 \begin{algorithm} \caption{Ricerca binaria} \begin{algorithmic} \Procedure{RicercaBinaria}{$A, target$} \State $sinistra \gets 0$ \State $destra \gets \Call{Lunghezza}{A} - 1$ \While{$sinistra \leq destra$} \State $mid \gets \lfloor (sinistra + destra) / 2 \rfloor$ \If{$A[mid] = target$} \Return $mid$ \ElsIf{$A[mid] &lt; target$} \State $sinistra \gets mid + 1$ \Else \State $destra \gets mid - 1$ \EndIf \EndWhile \Return $-1$ \EndProcedure \end{algorithmic} \end{algorithm}
 </div>
@@ -361,7 +361,7 @@ Tabella&nbsp;1: Media e varianza di alcune distribuzioni
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/marcolapegna\.github\.io\/dispense\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

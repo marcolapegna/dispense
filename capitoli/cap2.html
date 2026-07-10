@@ -237,7 +237,7 @@ Figura&nbsp;1: Confronto tra crescita lineare ed esponenziale
 <section id="massimo-comun-divisore" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="massimo-comun-divisore"><span class="header-section-number">2</span> Massimo comun divisore</h2>
 <p>L’<a href="#algo-euclide" class="quarto-xref">Algoritmo 1</a> mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.</p>
-<div id="algo-euclide" class="pseudocode-container quarto-float" data-line-number-punc=":" data-indent-size="1.2em" data-comment-delimiter="//" data-line-number="true" data-caption-prefix="Algoritmo" data-indent-lines="false" data-pseudocode-number="1" data-no-end="false">
+<div id="algo-euclide" class="pseudocode-container quarto-float" data-no-end="false" data-indent-size="1.2em" data-indent-lines="false" data-line-number-punc=":" data-caption-prefix="Algoritmo" data-line-number="true" data-comment-delimiter="//" data-pseudocode-number="1">
 <div class="pseudocode">
 \begin{algorithm} \caption{Euclide} \begin{algorithmic} \Procedure{MCD}{$a, b$} \While{$b \neq 0$} \State $r \gets a \bmod b$ \State $a \gets b$ \State $b \gets r$ \EndWhile \Return $a$ \EndProcedure \end{algorithmic} \end{algorithm}
 </div>
@@ -392,7 +392,7 @@ Tabella&nbsp;1: Ordini di crescita comuni
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/marcolapegna\.github\.io\/dispense\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
