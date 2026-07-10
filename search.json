@@ -67,7 +67,7 @@
     "href": "capitoli/cap2/cap2.html#massimo-comun-divisore",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "2 Massimo comun divisore",
-    "text": "2 Massimo comun divisore\nL’Algoritmo 1 mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.\n\n\n\\begin{algorithm} \\caption{Euclide} \\begin{algorithmic} \\Procedure{MCD}{$a, b$} \\While{$b \\neq 0$} \\State $r \\gets a \\bmod b$ \\State $a \\gets b$ \\State $b \\gets r$ \\EndWhile \\Return $a$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 termina sempre, poiché ad ogni iterazione il resto diminuisce strettamente."
+    "text": "2 Massimo comun divisore\nL’Algoritmo 1 mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi ?@eq-normale.\n\n\n\\begin{algorithm} \\caption{Euclide} \\begin{algorithmic} \\Procedure{MCD}{$a, b$} \\While{$b \\neq 0$} \\State $r \\gets a \\bmod b$ \\State $a \\gets b$ \\State $b \\gets r$ \\EndWhile \\Return $a$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 termina sempre, poiché ad ogni iterazione il resto diminuisce strettamente."
   },
   {
     "objectID": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
