@@ -20,7 +20,7 @@ illustrata in @fig-crescita, a confronto con una crescita lineare.
 ## Massimo comun divisore
 
 L'@algo-euclide mostra l'algoritmo di Euclide per il calcolo del massimo
-comun divisore fra due interi.
+comun divisore fra due interi @eq-normale.
 
 ```pseudocode
 #| label: algo-euclide
