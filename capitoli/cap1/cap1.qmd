@@ -2,7 +2,7 @@
 title: "Capitolo 1 — Probabilità"
 ---
 
-[← Torna all'indice](../index.html)
+[← Torna all'indice](../../index.html)
 
 ## La distribuzione normale
 
@@ -14,7 +14,7 @@ $$ {#eq-normale}
 
 L'@eq-normale descrive la classica curva a campana, mostrata in @fig-normale.
 
-![Distribuzione normale standard](../images/normale.png){#fig-normale width=70%}
+![Distribuzione normale standard](./normale.png){#fig-normale width=70%}
 
 ## Ricerca binaria
 

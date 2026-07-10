@@ -10,9 +10,9 @@ website:
       - text: "Indice"
         href: index.qmd
       - text: "Capitolo 1"
-        href: capitoli/cap1.qmd
+        href: capitoli/cap1/cap1.qmd
       - text: "Capitolo 2"
-        href: capitoli/cap2.qmd
+        href: capitoli/cap2/cap2.qmd
 
 title: "Dispense"
 author: "Il tuo nome"

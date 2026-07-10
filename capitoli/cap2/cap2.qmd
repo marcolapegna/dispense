@@ -2,7 +2,7 @@
 title: "Capitolo 2 — Crescita e algoritmi"
 ---
 
-[← Torna all'indice](../index.html)
+[← Torna all'indice](../../index.html)
 
 ## Crescita esponenziale
 
@@ -15,7 +15,7 @@ $$ {#eq-crescita}
 dove $N_0$ è il valore iniziale e $r$ il tasso di crescita. L'@eq-crescita è
 illustrata in @fig-crescita, a confronto con una crescita lineare.
 
-![Confronto tra crescita lineare ed esponenziale](../images/crescita.png){#fig-crescita width=70%}
+![Confronto tra crescita lineare ed esponenziale](./crescita.png){#fig-crescita width=70%}
 
 ## Massimo comun divisore
 

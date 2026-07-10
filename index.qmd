@@ -9,5 +9,5 @@ formule, figure, algoritmi e tabelle.
 
 ## Capitoli
 
-- [Capitolo 1 — Probabilità](capitoli/cap1.html)
-- [Capitolo 2 — Crescita e algoritmi](capitoli/cap2.html)
+- [Capitolo 1 — Probabilità](capitoli/cap1/cap1.html)
+- [Capitolo 2 — Crescita e algoritmi](capitoli/cap2/cap2.html)
