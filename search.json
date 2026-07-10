@@ -21,57 +21,57 @@
     "text": "2 Capitoli\n\nCapitolo 1 — Probabilità\nCapitolo 2 — Crescita e algoritmi"
   },
   {
-    "objectID": "capitoli/cap1.html",
-    "href": "capitoli/cap1.html",
+    "objectID": "capitoli/cap1/cap1.html",
+    "href": "capitoli/cap1/cap1.html",
     "title": "Capitolo 1 — Probabilità",
     "section": "",
     "text": "← Torna all’indice"
   },
   {
-    "objectID": "capitoli/cap1.html#la-distribuzione-normale",
-    "href": "capitoli/cap1.html#la-distribuzione-normale",
+    "objectID": "capitoli/cap1/cap1.html#la-distribuzione-normale",
+    "href": "capitoli/cap1/cap1.html#la-distribuzione-normale",
     "title": "Capitolo 1 — Probabilità",
     "section": "1 La distribuzione normale",
     "text": "1 La distribuzione normale\nLa funzione di densità della distribuzione normale standard è data da:\n\\[\nf(x) = \\frac{1}{\\sqrt{2\\pi}} \\, e^{-\\frac{x^2}{2}}\n\\tag{1}\\]\nL’Equazione 1 descrive la classica curva a campana, mostrata in Figura 1.\n\n\n\n\n\n\nFigura 1: Distribuzione normale standard"
   },
   {
-    "objectID": "capitoli/cap1.html#ricerca-binaria",
-    "href": "capitoli/cap1.html#ricerca-binaria",
+    "objectID": "capitoli/cap1/cap1.html#ricerca-binaria",
+    "href": "capitoli/cap1/cap1.html#ricerca-binaria",
     "title": "Capitolo 1 — Probabilità",
     "section": "2 Ricerca binaria",
     "text": "2 Ricerca binaria\nL’Algoritmo 1 mostra lo pseudocodice per la ricerca di un elemento in un array ordinato.\n\n\n\\begin{algorithm} \\caption{Ricerca binaria} \\begin{algorithmic} \\Procedure{RicercaBinaria}{$A, target$} \\State $sinistra \\gets 0$ \\State $destra \\gets \\Call{Lunghezza}{A} - 1$ \\While{$sinistra \\leq destra$} \\State $mid \\gets \\lfloor (sinistra + destra) / 2 \\rfloor$ \\If{$A[mid] = target$} \\Return $mid$ \\ElsIf{$A[mid] &lt; target$} \\State $sinistra \\gets mid + 1$ \\Else \\State $destra \\gets mid - 1$ \\EndIf \\EndWhile \\Return $-1$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 ha complessità \\(O(\\log n)\\)."
   },
   {
-    "objectID": "capitoli/cap1.html#confronto-tra-distribuzioni",
-    "href": "capitoli/cap1.html#confronto-tra-distribuzioni",
+    "objectID": "capitoli/cap1/cap1.html#confronto-tra-distribuzioni",
+    "href": "capitoli/cap1/cap1.html#confronto-tra-distribuzioni",
     "title": "Capitolo 1 — Probabilità",
     "section": "3 Confronto tra distribuzioni",
     "text": "3 Confronto tra distribuzioni\nLa Tabella 1 riassume media e varianza di alcune distribuzioni comuni.\n\n\n\nTabella 1: Media e varianza di alcune distribuzioni\n\n\n\n\n\nDistribuzione\nMedia\nVarianza\n\n\n\n\nNormale standard\n\\(0\\)\n\\(1\\)\n\n\nUniforme su \\([0,1]\\)\n\\(0.5\\)\n\\(1/12\\)\n\n\nEsponenziale (\\(\\lambda\\))\n\\(1/\\lambda\\)\n\\(1/\\lambda^2\\)\n\n\n\n\n\n\nCome mostrato nella Tabella 1, la distribuzione normale standard ha media nulla e varianza unitaria."
   },
   {
-    "objectID": "capitoli/cap2.html",
-    "href": "capitoli/cap2.html",
+    "objectID": "capitoli/cap2/cap2.html",
+    "href": "capitoli/cap2/cap2.html",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "",
     "text": "← Torna all’indice"
   },
   {
-    "objectID": "capitoli/cap2.html#crescita-esponenziale",
-    "href": "capitoli/cap2.html#crescita-esponenziale",
+    "objectID": "capitoli/cap2/cap2.html#crescita-esponenziale",
+    "href": "capitoli/cap2/cap2.html#crescita-esponenziale",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "1 Crescita esponenziale",
     "text": "1 Crescita esponenziale\nUna quantità che cresce esponenzialmente nel tempo segue la legge:\n\\[\nN(t) = N_0 \\, e^{rt}\n\\tag{1}\\]\ndove \\(N_0\\) è il valore iniziale e \\(r\\) il tasso di crescita. L’Equazione 1 è illustrata in Figura 1, a confronto con una crescita lineare.\n\n\n\n\n\n\nFigura 1: Confronto tra crescita lineare ed esponenziale"
   },
   {
-    "objectID": "capitoli/cap2.html#massimo-comun-divisore",
-    "href": "capitoli/cap2.html#massimo-comun-divisore",
+    "objectID": "capitoli/cap2/cap2.html#massimo-comun-divisore",
+    "href": "capitoli/cap2/cap2.html#massimo-comun-divisore",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "2 Massimo comun divisore",
     "text": "2 Massimo comun divisore\nL’Algoritmo 1 mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.\n\n\n\\begin{algorithm} \\caption{Euclide} \\begin{algorithmic} \\Procedure{MCD}{$a, b$} \\While{$b \\neq 0$} \\State $r \\gets a \\bmod b$ \\State $a \\gets b$ \\State $b \\gets r$ \\EndWhile \\Return $a$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 termina sempre, poiché ad ogni iterazione il resto diminuisce strettamente."
   },
   {
-    "objectID": "capitoli/cap2.html#confronto-tra-ordini-di-crescita",
-    "href": "capitoli/cap2.html#confronto-tra-ordini-di-crescita",
+    "objectID": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
+    "href": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "3 Confronto tra ordini di crescita",
     "text": "3 Confronto tra ordini di crescita\nLa Tabella 1 riassume alcuni ordini di crescita comuni in informatica.\n\n\n\nTabella 1: Ordini di crescita comuni\n\n\n\n\n\nNotazione\nNome\nEsempio tipico\n\n\n\n\n\\(O(\\log n)\\)\nLogaritmica\nRicerca binaria\n\n\n\\(O(n)\\)\nLineare\nScansione di un array\n\n\n\\(O(n \\log n)\\)\nQuasi lineare\nMerge sort\n\n\n\\(O(2^n)\\)\nEsponenziale\nForza bruta su sottoinsiemi\n\n\n\n\n\n\nCome mostra la Tabella 1, l’algoritmo di ricerca binaria del capitolo precedente appartiene alla classe più efficiente tra quelle elencate.\n\n\n\n\n\n\nNotaNota\n\n\n\nLa distribuzione normale standard ha sempre media \\(0\\) e varianza \\(1\\).\n\n\n\n\n\n\n\n\nConsiglioSuggerimento\n\n\n\nPer generalizzare a media e varianza qualsiasi, basta applicare la trasformazione \\(X = \\mu + \\sigma Z\\), dove \\(Z\\) è normale standard."
