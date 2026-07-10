@@ -237,7 +237,7 @@ Figura&nbsp;1: Distribuzione normale standard
 <section id="ricerca-binaria" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="ricerca-binaria"><span class="header-section-number">2</span> Ricerca binaria</h2>
 <p>L’<a href="#algo-ricerca-binaria" class="quarto-xref">Algoritmo 1</a> mostra lo pseudocodice per la ricerca di un elemento in un array ordinato.</p>
-<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-no-end="false" data-comment-delimiter="//" data-pseudocode-number="1" data-indent-size="1.2em" data-line-number-punc=":" data-caption-prefix="Algoritmo" data-line-number="true" data-indent-lines="false">
+<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-pseudocode-number="1" data-caption-prefix="Algoritmo" data-indent-lines="false" data-comment-delimiter="//" data-indent-size="1.2em" data-line-number="true" data-line-number-punc=":" data-no-end="false">
 <div class="pseudocode">
 \begin{algorithm} \caption{Ricerca binaria} \begin{algorithmic} \Procedure{RicercaBinaria}{$A, target$} \State $sinistra \gets 0$ \State $destra \gets \Call{Lunghezza}{A} - 1$ \While{$sinistra \leq destra$} \State $mid \gets \lfloor (sinistra + destra) / 2 \rfloor$ \If{$A[mid] = target$} \Return $mid$ \ElsIf{$A[mid] &lt; target$} \State $sinistra \gets mid + 1$ \Else \State $destra \gets mid - 1$ \EndIf \EndWhile \Return $-1$ \EndProcedure \end{algorithmic} \end{algorithm}
 </div>
