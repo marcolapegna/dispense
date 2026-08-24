@@ -13,9 +13,11 @@ website:
         href: capitoli/cap1/cap1.qmd
       - text: "Capitolo 2"
         href: capitoli/cap2/cap2.qmd
+      - text: "Alcuni algoritmi fondamentali"
+        href: capitoli/cap3/cap3.qmd
 
 title: "Dispense"
-author: "Il tuo nome"
+author: "Marco Lapegna"
 lang: it
 
 filters:

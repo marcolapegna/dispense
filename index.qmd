@@ -11,3 +11,5 @@ formule, figure, algoritmi e tabelle.
 
 - [Capitolo 1 — Probabilità](capitoli/cap1/cap1.html)
 - [Capitolo 2 — Crescita e algoritmi](capitoli/cap2/cap2.html)
+- [Capitolo 3 — Alcuni algoritmi fondamentali](capitoli/cap3/cap3.html)
+

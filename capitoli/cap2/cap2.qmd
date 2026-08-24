@@ -60,8 +60,13 @@ La @tbl-crescite riassume alcuni ordini di crescita comuni in informatica.
 Come mostra la @tbl-crescite, l'algoritmo di ricerca binaria del capitolo
 precedente appartiene alla classe più efficiente tra quelle elencate.
 
-::: {.callout-note title="Nota"}
-La distribuzione normale standard ha sempre media $0$ e varianza $1$.
+::: {.callout-note title="Dijkstra"}
+::: {layout-ncol=2}
+![Edsger Dijkstra](./dijkstra.jpg){#fig-dijkstra width=90%} 
+
+(Rotterdam, 11 maggio 1930 – Nuenen, 6 agosto 2002) è stato un informatico olandese. I suoi più importanti contributi all'informatica sono stati il cosiddetto "algoritmo di Dijkstra" e il concetto informatico di "semaforo".
+È anche noto per la pessima opinione espressa a proposito dell'uso dell'istruzione GOTO nella programmazione, culminata nel celebre articolo del 1968 Go To Statement Considered Harmful, considerato come uno dei passi fondamentali verso il rifiuto generalizzato dell'istruzione GOTO nei linguaggi di programmazione e della sua sostituzione con più funzionali strutture di controllo come il ciclo while.
+:::
 :::
 
 ::: {.callout-tip title="Suggerimento"}
