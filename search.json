@@ -18,7 +18,35 @@
     "href": "index.html#capitoli",
     "title": "Indice del corso",
     "section": "2 Capitoli",
-    "text": "2 Capitoli\n\nCapitolo 1 — Probabilità\nCapitolo 2 — Crescita e algoritmi"
+    "text": "2 Capitoli\n\nCapitolo 1 — Probabilità\nCapitolo 2 — Crescita e algoritmi\nCapitolo 3 — Alcuni algoritmi fondamentali"
+  },
+  {
+    "objectID": "capitoli/cap2/cap2.html",
+    "href": "capitoli/cap2/cap2.html",
+    "title": "Capitolo 2 — Crescita e algoritmi",
+    "section": "",
+    "text": "← Torna all’indice"
+  },
+  {
+    "objectID": "capitoli/cap2/cap2.html#crescita-esponenziale",
+    "href": "capitoli/cap2/cap2.html#crescita-esponenziale",
+    "title": "Capitolo 2 — Crescita e algoritmi",
+    "section": "1 Crescita esponenziale",
+    "text": "1 Crescita esponenziale\nUna quantità che cresce esponenzialmente nel tempo segue la legge:\n\\[\nN(t) = N_0 \\, e^{rt}\n\\tag{1}\\]\ndove \\(N_0\\) è il valore iniziale e \\(r\\) il tasso di crescita. L’Equazione 1 è illustrata in Figura 1, a confronto con una crescita lineare.\n\n\n\n\n\n\nFigura 1: Confronto tra crescita lineare ed esponenziale"
+  },
+  {
+    "objectID": "capitoli/cap2/cap2.html#massimo-comun-divisore",
+    "href": "capitoli/cap2/cap2.html#massimo-comun-divisore",
+    "title": "Capitolo 2 — Crescita e algoritmi",
+    "section": "2 Massimo comun divisore",
+    "text": "2 Massimo comun divisore\nL’Algoritmo 1 mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.\n\n\n\\begin{algorithm} \\caption{Euclide} \\begin{algorithmic} \\Procedure{MCD}{$a, b$} \\While{$b \\neq 0$} \\State $r \\gets a \\bmod b$ \\State $a \\gets b$ \\State $b \\gets r$ \\EndWhile \\Return $a$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 termina sempre, poiché ad ogni iterazione il resto diminuisce strettamente."
+  },
+  {
+    "objectID": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
+    "href": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
+    "title": "Capitolo 2 — Crescita e algoritmi",
+    "section": "3 Confronto tra ordini di crescita",
+    "text": "3 Confronto tra ordini di crescita\nLa Tabella 1 riassume alcuni ordini di crescita comuni in informatica.\n\n\n\nTabella 1: Ordini di crescita comuni\n\n\n\n\n\nNotazione\nNome\nEsempio tipico\n\n\n\n\n\\(O(\\log n)\\)\nLogaritmica\nRicerca binaria\n\n\n\\(O(n)\\)\nLineare\nScansione di un array\n\n\n\\(O(n \\log n)\\)\nQuasi lineare\nMerge sort\n\n\n\\(O(2^n)\\)\nEsponenziale\nForza bruta su sottoinsiemi\n\n\n\n\n\n\nCome mostra la Tabella 1, l’algoritmo di ricerca binaria del capitolo precedente appartiene alla classe più efficiente tra quelle elencate.\n\n\n\n\n\n\nNotaDijkstra\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2: Edsger Dijkstra\n\n\n\n\n\n(Rotterdam, 11 maggio 1930 – Nuenen, 6 agosto 2002) è stato un informatico olandese. I suoi più importanti contributi all’informatica sono stati il cosiddetto “algoritmo di Dijkstra” e il concetto informatico di “semaforo”. È anche noto per la pessima opinione espressa a proposito dell’uso dell’istruzione GOTO nella programmazione, culminata nel celebre articolo del 1968 Go To Statement Considered Harmful, considerato come uno dei passi fondamentali verso il rifiuto generalizzato dell’istruzione GOTO nei linguaggi di programmazione e della sua sostituzione con più funzionali strutture di controllo come il ciclo while.\n\n\n\n\n\n\n\n\n\n\n\nConsiglioSuggerimento\n\n\n\nPer generalizzare a media e varianza qualsiasi, basta applicare la trasformazione \\(X = \\mu + \\sigma Z\\), dove \\(Z\\) è normale standard."
   },
   {
     "objectID": "capitoli/cap1/cap1.html",
@@ -49,31 +77,31 @@
     "text": "3 Confronto tra distribuzioni\nLa Tabella 1 riassume media e varianza di alcune distribuzioni comuni.\n\n\n\nTabella 1: Media e varianza di alcune distribuzioni\n\n\n\n\n\nDistribuzione\nMedia\nVarianza\n\n\n\n\nNormale standard\n\\(0\\)\n\\(1\\)\n\n\nUniforme su \\([0,1]\\)\n\\(0.5\\)\n\\(1/12\\)\n\n\nEsponenziale (\\(\\lambda\\))\n\\(1/\\lambda\\)\n\\(1/\\lambda^2\\)\n\n\n\n\n\n\nCome mostrato nella Tabella 1, la distribuzione normale standard ha media nulla e varianza unitaria."
   },
   {
-    "objectID": "capitoli/cap2/cap2.html",
-    "href": "capitoli/cap2/cap2.html",
+    "objectID": "capitoli/cap3/cap3.html",
+    "href": "capitoli/cap3/cap3.html",
     "title": "Capitolo 2 — Crescita e algoritmi",
     "section": "",
     "text": "← Torna all’indice"
   },
   {
-    "objectID": "capitoli/cap2/cap2.html#crescita-esponenziale",
-    "href": "capitoli/cap2/cap2.html#crescita-esponenziale",
+    "objectID": "capitoli/cap3/cap3.html#la-ricerca-binaria",
+    "href": "capitoli/cap3/cap3.html#la-ricerca-binaria",
     "title": "Capitolo 2 — Crescita e algoritmi",
-    "section": "1 Crescita esponenziale",
-    "text": "1 Crescita esponenziale\nUna quantità che cresce esponenzialmente nel tempo segue la legge:\n\\[\nN(t) = N_0 \\, e^{rt}\n\\tag{1}\\]\ndove \\(N_0\\) è il valore iniziale e \\(r\\) il tasso di crescita. L’Equazione 1 è illustrata in Figura 1, a confronto con una crescita lineare.\n\n\n\n\n\n\nFigura 1: Confronto tra crescita lineare ed esponenziale"
+    "section": "1 La ricerca binaria",
+    "text": "1 La ricerca binaria\nLa ricerca binaria (o ricerca dicotomica) è un algoritmo che determina la posizione \\(pos\\) di un elemento \\(X\\) in un array ordinato \\(A\\) di lunghezza \\(N\\). Nel caso in cui \\(X\\) non è presente in \\(A\\), l’algoritmo restituisce convenzionalmente \\(pos=-1\\). La precondizione fondamentale è che l’array sia ordinato: senza di essa l’algoritmo non funziona. L’idea è quella del “divide et impera”. Più precisamente, invece di scorrere l’array elemento per elemento (come nella ricerca sequenziale), l’algoritmo confronta l’elemento cercato con quello che si trova in posizione centrale dell’intervallo di ricerca corrente. Si presentano tre casi. Se l’elemento centrale è uguale a quello cercato, allora si è trovata la posizione e la ricerca termina con successo. Altrimenti, se l’elemento cercato è minore di quello centrale, esso può trovarsi solo nella metà sinistra, quindi la metà destra viene scartata. Se invece è maggiore, può trovarsi solo nella metà destra, e viene scartata la metà sinistra. Il procedimento si ripete sulla metà rimanente, dimezzando a ogni passo l’intervallo di ricerca, finché l’elemento viene trovato oppure l’intervallo di ricerca corrente si svuota, condizione che indica che l’elemento non è presente.\nEsempio\nRicerca dell’elemento \\(X = 23\\) in un array \\(A\\) di \\(N=8\\) elementi.\n\n\n\n\n\n\nFigura 1: ricerca binaria\n\n\n\nAlgoritmo\n\n\n\\begin{algorithm} \\caption{Ricerca binaria} \\begin{algorithmic} \\State \\textbf{procedure} $ricbin(in:\\; N, A, X; \\; out:\\; pos)$ \\State \\textbf{var}: $inf, sup, med, pos$ \\textbf{integer} \\State \\textbf{var}: $X$\\textbf{real} \\State \\textbf{array}: $A[N]$ \\textbf{real} \\State \\State $inf = 1$ \\State $sup = N$ \\State $pos = -1$ \\While{($inf \\leq sup $ \\textbf{and} $ pos == -1$)} \\State $med = \\lfloor (inf + sup) / 2 \\rfloor$ \\If{ ($A[med] == X$) } \\State $pos = med$ \\Else \\If{( $A[med] &lt;X$) } \\State $inf = med + 1$ \\Else \\State $sup = med - 1$ \\EndIf \\EndIf \\EndWhile \\State \\textbf{end procedure} \\end{algorithmic} \\end{algorithm}\n\n\n\nle variabili \\(inf\\) e \\(sup\\) rappresentano gli estremi dell’intervallo di ricerca\nla variabile \\(med\\) è l’indice dell’elemento centrale di \\(A\\)\nLa struttura while (riga 9) determina il criterio di arresto (intervallo di ricerca vuoto oppure elemento trovato)\nLa struttura di selezione a riga 11 confronta \\(X\\) con l’elemento centrale di \\(A\\)\nLa struttura di selezione a riga 14 verifica se \\(X\\) è precedente o successivo all’elemento centrale\n\nComplessità computazionale\n\nCaso migliore: l’elemento viene trovato subito in posizione centrale, quindi \\(T(N) = 1\\) confronti, cioè \\(T(N) \\in O(1)\\).\nCaso peggiore: poiché a ogni iterazione l’intervallo di ricerca si dimezza, la complessità è \\(T(N) = 2\\log (N)\\) cioè \\(T(N)\\in\\Omega(\\log (N))\\) (se \\(N\\) è potenza di 2), contro \\(T(N) = N\\) della ricerca sequenziale."
   },
   {
-    "objectID": "capitoli/cap2/cap2.html#massimo-comun-divisore",
-    "href": "capitoli/cap2/cap2.html#massimo-comun-divisore",
+    "objectID": "capitoli/cap3/cap3.html#lordinamento-per-selezione",
+    "href": "capitoli/cap3/cap3.html#lordinamento-per-selezione",
     "title": "Capitolo 2 — Crescita e algoritmi",
-    "section": "2 Massimo comun divisore",
-    "text": "2 Massimo comun divisore\nL’Algoritmo 1 mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.\n\n\n\\begin{algorithm} \\caption{Euclide} \\begin{algorithmic} \\Procedure{MCD}{$a, b$} \\While{$b \\neq 0$} \\State $r \\gets a \\bmod b$ \\State $a \\gets b$ \\State $b \\gets r$ \\EndWhile \\Return $a$ \\EndProcedure \\end{algorithmic} \\end{algorithm}\n\n\nL’Algoritmo 1 termina sempre, poiché ad ogni iterazione il resto diminuisce strettamente."
+    "section": "2 L’ordinamento per selezione",
+    "text": "2 L’ordinamento per selezione\nL’ordinamento per selezione ordina un array \\(A\\) di lunghezza \\(N\\) operando in place (cioè senza l’utilizzo di array supplementari). Esso opera per passi dove, ad ogni passo, l’array risulta partizionato in due sezioni. Detto \\(i\\) l’indice del passo, la sezione \\(A[1,..,i-1]\\) risulta già ordinata, mentre la rimanente \\(A[i,..,N]\\) è ancora da ordinare. L’algoritmo, allora, seleziona l’elemento minimo nella sezione non ordinata \\(A[i..N]\\), individuandone la posizione \\(pos\\), e lo sposta in posizione \\(i\\) mediante uno scambio con \\(A[i]\\). Dopo lo scambio la porzione ordinata dell’array si allunga di una posizione e contiene gli \\(i\\) elementi più piccoli dell’intero array, già nella loro posizione ordinata definitiva, mentre la sezione non ordinata si riduce di un elemento. Dopo \\(N-1\\) iterazioni l’elemento in posizione \\(N\\) è necessariamente il massimo e l’array risulta ordinato.\nEsempio\nOrdinamento di un array \\(A\\) di \\(N=5\\) elementi.\n\n\n\n\n\n\nFigura 2: ordinamento per selezione\n\n\n\nAlgoritmo\n\n\n\\begin{algorithm} \\caption{Ordinamento per selezione} \\begin{algorithmic} \\State \\textbf{procedure} $ordsel(in:\\; N, A; \\; out:\\; A)$ \\State \\textbf{var}: $i, j, pos$ \\textbf{integer} \\State \\textbf{var}: $T$ \\textbf{real} \\State \\textbf{array}: $A[N]$ \\textbf{real} \\State \\For{$i = 1$ \\textbf{to} $N-1$} \\State $pos = i$ \\For{$j = i+1$ \\textbf{to} $N$} \\If{$A[j] &lt; A[pos]$} \\State $pos = j$ \\EndIf \\EndFor \\If{$pos \\neq i$} \\State $T = A[pos]$ \\State $A[pos] = A[i]$ \\State $A[i] = T$ \\EndIf \\EndFor \\State \\textbf{end procedure} \\end{algorithmic} \\end{algorithm}\n\n\n\nle istruzioni da 7 a 12 rappresentano la ricerca del minimo nella sezione on ordinata \\(A[i,..,N]\\)\nle istruzioni da 14 a 16 rappresentano lo scambio tra il minimo in \\(A[i,..,N]\\) e \\(A[i]\\)\nlo scambio viene effettuato solo se il minimo non è già nella posizione giusta (controllo di riga 13)\n\nComplessità computazionale\nL’algoritmo esegue sempre \\(N-1\\) iterazioni, per cui effettua sempre \\(T(N) = \\sum_{i=1}^{N-1} (N-i) = \\frac{N(N-1)}{2}\\) confronti, indipendentemente dalla disposizione iniziale dei dati. La complessità asintotica è dunque \\(T(N)\\in O(N^2)\\) in ogni caso. Gli scambi sono al più \\(N-1\\) nel caso peggiore (ad esempio per l’array \\(A =[2, 3, 4, 5, 1]\\)) oppure nessuno se l’array è già ordinato. Poichè l’ordinamento avviene in place la complessità di spazio è \\(S(N) = N\\)."
   },
   {
-    "objectID": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
-    "href": "capitoli/cap2/cap2.html#confronto-tra-ordini-di-crescita",
+    "objectID": "capitoli/cap3/cap3.html#lordinamento-per-scambi",
+    "href": "capitoli/cap3/cap3.html#lordinamento-per-scambi",
     "title": "Capitolo 2 — Crescita e algoritmi",
-    "section": "3 Confronto tra ordini di crescita",
-    "text": "3 Confronto tra ordini di crescita\nLa Tabella 1 riassume alcuni ordini di crescita comuni in informatica.\n\n\n\nTabella 1: Ordini di crescita comuni\n\n\n\n\n\nNotazione\nNome\nEsempio tipico\n\n\n\n\n\\(O(\\log n)\\)\nLogaritmica\nRicerca binaria\n\n\n\\(O(n)\\)\nLineare\nScansione di un array\n\n\n\\(O(n \\log n)\\)\nQuasi lineare\nMerge sort\n\n\n\\(O(2^n)\\)\nEsponenziale\nForza bruta su sottoinsiemi\n\n\n\n\n\n\nCome mostra la Tabella 1, l’algoritmo di ricerca binaria del capitolo precedente appartiene alla classe più efficiente tra quelle elencate.\n\n\n\n\n\n\nNotaNota\n\n\n\nLa distribuzione normale standard ha sempre media \\(0\\) e varianza \\(1\\).\n\n\n\n\n\n\n\n\nConsiglioSuggerimento\n\n\n\nPer generalizzare a media e varianza qualsiasi, basta applicare la trasformazione \\(X = \\mu + \\sigma Z\\), dove \\(Z\\) è normale standard."
+    "section": "3 L’ordinamento per scambi",
+    "text": "3 L’ordinamento per scambi\nL’ordinamento per scambi ordina un array \\(A\\) di lunghezza \\(N\\) operando in place (cioè senza l’utilizzo di array supplementari). Esso opera per passi dove, ad ogni passo, l’array risulta partizionato in due sezioni. Detto \\(i\\) l’indice del passo, inizialmente la sezione \\(A[N-i+2,..,N]\\) risulta già ordinata, mentre la rimanente \\(A[1,..,N-i+1]\\) è ancora da ordinare. L’algoritmo, allora, confronta gli elementi adiacenti due a due nella sezione non ordinata, scambiando quelli non in ordine. Dopo la serie di confronti e scambi nell’\\(i\\)-mo passo, la porzione ordinata dell’array si allunga di una unità e contiene nella sezione \\(A[N-i+1,..,N]\\) gli \\(i\\) elementi più grandi dell’intero array, mentre la sezione non ordinata si riduce di un elemento. Dopo \\(N-1\\) iterazioni l’array risulta ordinato. E’ opportuno osservare, però, che se in una iterazione non avvengono scambi, vuol dire che gli elementi adiacenti sono già in ordine due a due e pertanto l’algoritmo può terminare. Ciò si ottiene con una struttura di iterazione repeat che termina quando si sono compiute le \\(N-1\\) previste oppure se non vengono effettuati scambi.\nEsempio\nOrdinamento di un array \\(A\\) di \\(N=5\\) elementi.\n\n\n\n\n\n\nFigura 3: ordinamento per selezione\n\n\n\nAlgoritmo\n\n\n\\begin{algorithm} \\caption{Ordinamento per scambi} \\begin{algorithmic} \\State \\textbf{procedure} $ordsca(in:\\; N, A; \\; out:\\; A)$ \\State \\textbf{var}: $i, j, S$ \\textbf{integer} \\State \\textbf{var}: $T$ \\textbf{real} \\State \\textbf{array}: $A[N]$ \\textbf{real} \\State \\State $i = 0$ \\Repeat \\State $i = i+ 1$ \\State $S = 0$ \\For{$j = 1$ \\textbf{to} $N-i$} \\If{$A[j] &gt; A[j+1]$} \\State $T = A[j]$ \\State $A[j] = A[j+1]$ \\State $A[j+1] = T$ \\State $S = 1$ \\EndIf \\EndFor \\Until{($i = N-1$ \\textbf{or} $S == 0$)} \\State \\textbf{end procedure} \\end{algorithmic} \\end{algorithm}\n\n\n\nla struttura repeat (riga 7) determina le iterazioni da eseguire\nla struttura for (riga 10) scorre l’array all’interno del passo \\(i\\)\nla variabile \\(S\\) definisce se sono stati effettuati scambi alla iterazione \\(i\\) (\\(S==1\\)) oppure no (\\(S == 0\\))\n\nComplessità computazionale\n\nCaso migliore (array già ordinato) L’algoritmo scorre e confronta tutti le coppie di elementi adiacenti (righe 10 e 11) e non esegue mai scambi e quindi esegue solo l’iterazione con \\(i=1\\). Ciò comporta \\(T(N) = N-1\\) confronti + \\(0\\) scambi\nCaso peggiore (array in ordine inverso) L’algoritmo trova due elementi adiacenti sempre in ordine inverso, e per ogni confronto esegue uno scambio. Esso esegue quindi sempre \\(N-1\\) iterazioni, in cui effettua \\(N-i\\) confronti, per un totale di \\(T(N) =\\sum_{i=1}^{i=N-1} (N-i) = \\frac{N(N-1)}{2}\\) confronti e altrettanti scambi"
   }
 ]

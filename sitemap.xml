@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://marcolapegna.github.io/dispense/index.html</loc>
-    <lastmod>2026-07-10T16:42:53.762Z</lastmod>
+    <lastmod>2026-07-11T08:38:24.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marcolapegna.github.io/dispense/capitoli/cap2/cap2.html</loc>
+    <lastmod>2026-07-13T08:49:58.291Z</lastmod>
   </url>
   <url>
     <loc>https://marcolapegna.github.io/dispense/capitoli/cap1/cap1.html</loc>
     <lastmod>2026-07-10T16:44:52.901Z</lastmod>
   </url>
   <url>
-    <loc>https://marcolapegna.github.io/dispense/capitoli/cap2/cap2.html</loc>
-    <lastmod>2026-07-10T17:25:56.030Z</lastmod>
+    <loc>https://marcolapegna.github.io/dispense/capitoli/cap3/cap3.html</loc>
+    <lastmod>2026-07-15T17:23:06.657Z</lastmod>
   </url>
 </urlset>

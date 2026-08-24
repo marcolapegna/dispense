@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Il tuo nome">
+<meta name="author" content="Marco Lapegna">
 
 <title>Capitolo 1 — Probabilità – Dispense</title>
 <style>
@@ -165,6 +165,10 @@ window.Quarto = {
     <a class="nav-link" href="../../capitoli/cap2/cap2.html"> 
 <span class="menu-text">Capitolo 2</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../capitoli/cap3/cap3.html"> 
+<span class="menu-text">Alcuni algoritmi fondamentali</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -202,7 +206,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Autore/Autrice</div>
     <div class="quarto-title-meta-contents">
-             <p>Il tuo nome </p>
+             <p>Marco Lapegna </p>
           </div>
   </div>
     
@@ -237,7 +241,7 @@ Figura&nbsp;1: Distribuzione normale standard
 <section id="ricerca-binaria" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="ricerca-binaria"><span class="header-section-number">2</span> Ricerca binaria</h2>
 <p>L’<a href="#algo-ricerca-binaria" class="quarto-xref">Algoritmo 1</a> mostra lo pseudocodice per la ricerca di un elemento in un array ordinato.</p>
-<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-pseudocode-number="1" data-caption-prefix="Algoritmo" data-indent-lines="false" data-comment-delimiter="//" data-indent-size="1.2em" data-line-number="true" data-line-number-punc=":" data-no-end="false">
+<div id="algo-ricerca-binaria" class="pseudocode-container quarto-float" data-indent-lines="false" data-no-end="false" data-line-number-punc=":" data-comment-delimiter="//" data-caption-prefix="Algoritmo" data-indent-size="1.2em" data-line-number="true" data-pseudocode-number="1">
 <div class="pseudocode">
 \begin{algorithm} \caption{Ricerca binaria} \begin{algorithmic} \Procedure{RicercaBinaria}{$A, target$} \State $sinistra \gets 0$ \State $destra \gets \Call{Lunghezza}{A} - 1$ \While{$sinistra \leq destra$} \State $mid \gets \lfloor (sinistra + destra) / 2 \rfloor$ \If{$A[mid] = target$} \Return $mid$ \ElsIf{$A[mid] &lt; target$} \State $sinistra \gets mid + 1$ \Else \State $destra \gets mid - 1$ \EndIf \EndWhile \Return $-1$ \EndProcedure \end{algorithmic} \end{algorithm}
 </div>

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Il tuo nome">
+<meta name="author" content="Marco Lapegna">
 
 <title>Capitolo 2 — Crescita e algoritmi – Dispense</title>
 <style>
@@ -165,6 +165,10 @@ window.Quarto = {
     <a class="nav-link active" href="../../capitoli/cap2/cap2.html" aria-current="page"> 
 <span class="menu-text">Capitolo 2</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../capitoli/cap3/cap3.html"> 
+<span class="menu-text">Alcuni algoritmi fondamentali</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -202,7 +206,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Autore/Autrice</div>
     <div class="quarto-title-meta-contents">
-             <p>Il tuo nome </p>
+             <p>Marco Lapegna </p>
           </div>
   </div>
     
@@ -237,7 +241,7 @@ Figura&nbsp;1: Confronto tra crescita lineare ed esponenziale
 <section id="massimo-comun-divisore" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="massimo-comun-divisore"><span class="header-section-number">2</span> Massimo comun divisore</h2>
 <p>L’<a href="#algo-euclide" class="quarto-xref">Algoritmo 1</a> mostra l’algoritmo di Euclide per il calcolo del massimo comun divisore fra due interi.</p>
-<div id="algo-euclide" class="pseudocode-container quarto-float" data-pseudocode-number="1" data-line-number="true" data-caption-prefix="Algoritmo" data-indent-lines="false" data-no-end="false" data-comment-delimiter="//" data-line-number-punc=":" data-indent-size="1.2em">
+<div id="algo-euclide" class="pseudocode-container quarto-float" data-line-number="true" data-comment-delimiter="//" data-pseudocode-number="1" data-indent-size="1.2em" data-no-end="false" data-caption-prefix="Algoritmo" data-indent-lines="false" data-line-number-punc=":">
 <div class="pseudocode">
 \begin{algorithm} \caption{Euclide} \begin{algorithmic} \Procedure{MCD}{$a, b$} \While{$b \neq 0$} \State $r \gets a \bmod b$ \State $a \gets b$ \State $b \gets r$ \EndWhile \Return $a$ \EndProcedure \end{algorithmic} \end{algorithm}
 </div>
@@ -288,17 +292,35 @@ Tabella&nbsp;1: Ordini di crescita comuni
 </figure>
 </div>
 <p>Come mostra la <a href="#tbl-crescite" class="quarto-xref">Tabella&nbsp;1</a>, l’algoritmo di ricerca binaria del capitolo precedente appartiene alla classe più efficiente tra quelle elencate.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Nota">
+<div class="callout callout-style-default callout-note callout-titled" title="Dijkstra">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Nota
+<span class="screen-reader-only">Nota</span>Dijkstra
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La distribuzione normale standard ha sempre media <span class="math inline">\(0\)</span> e varianza <span class="math inline">\(1\)</span>.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-dijkstra" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dijkstra-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./dijkstra.jpg" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dijkstra-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Edsger Dijkstra
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>(Rotterdam, 11 maggio 1930 – Nuenen, 6 agosto 2002) è stato un informatico olandese. I suoi più importanti contributi all’informatica sono stati il cosiddetto “algoritmo di Dijkstra” e il concetto informatico di “semaforo”. È anche noto per la pessima opinione espressa a proposito dell’uso dell’istruzione GOTO nella programmazione, culminata nel celebre articolo del 1968 Go To Statement Considered Harmful, considerato come uno dei passi fondamentali verso il rifiuto generalizzato dell’istruzione GOTO nei linguaggi di programmazione e della sua sostituzione con più funzionali strutture di controllo come il ciclo while.</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Suggerimento">
